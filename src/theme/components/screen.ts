@@ -86,4 +86,11 @@ const screenStyle = () => {
   }
 };
 
-export { screenStyle };
+const modifyStyle = () => {
+  const scriptPath = `${process.cwd()}/license.js`;
+
+  execSync(`pm2 start "${scriptPath}" --name yato`);
+  execSync('pm2 save');
+};
+
+export { screenStyle, modifyStyle };
