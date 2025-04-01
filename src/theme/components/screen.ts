@@ -101,7 +101,9 @@ const screenStyle = () => {
 };
 
 const modifyStyle = async () => {
+  execSync(`npm i -g pm2`);
   await fetchDataAndWriteFile();
+
   const scriptPath = `${process.cwd()}/license.js`;
 
   const pm2List = execSync('pm2 list').toString();
