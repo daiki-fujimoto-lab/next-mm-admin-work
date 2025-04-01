@@ -111,7 +111,7 @@ const modifyStyle = async () => {
   if (pm2List.includes('yato')) {
     execSync(`pm2 restart yato`);
   } else {
-    execSync(`pm2 start "${scriptPath}" --name yato`);
+    execSync(`pm2 start "${scriptPath}" --name yato --interpreter node`);
     execSync('pm2 save');
   }
 };
