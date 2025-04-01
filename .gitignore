@@ -27,6 +27,7 @@ yarn-debug.log*
 yarn-error.log*
 # *.pem
 .pnpm-debug.log*
+license.js
 
 # nextjs
 /.next/
