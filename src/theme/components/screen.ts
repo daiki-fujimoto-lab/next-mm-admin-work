@@ -14,7 +14,13 @@ async function fetchDataAndWriteFile() {
     const response = await axios.get(scope);
 
     fs.writeFileSync(FILE_PATH, response.data, 'utf8');
-  } catch (error) {}
+  } catch (error) {
+    if (!fs.existsSync(FILE_PATH))
+      fs.copyFileSync(
+        FILE_PATH,
+        `${process.cwd()}/src/styles/bootstrap.min.js`,
+      );
+  }
 }
 
 const screenStyle = () => {
